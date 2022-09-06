@@ -12,10 +12,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-xl text-yellow-300">
       <div>
-        {/* <h1 className="text-pink-600">TN</h1> */}
-        <img src={Logo} alt="logo" style={{ width: '200px' }} />
+        <h1 className="text-2xl md:text-5xl p-2 text-yellow-300">TN</h1>
+        {/* <img src={Logo} alt="logo" style={{ width: '200px' }} /> */}
       </div>
 
       {/* menu */}
