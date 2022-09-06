@@ -1,8 +1,10 @@
 import Work from 'components/Work/Work';
 import Contact from 'components/Contact/Contact';
+import Skills from 'components/Skills/Skills';
+import About from 'components/About/About';
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import Me from '../../assets/me4.png';
+import Me from '../../assets/me3.png';
 
 /////////////////////////////////////////////////////////////////
 
@@ -53,6 +55,8 @@ const Home = () => {
         </div>
       </div>
 
+      <About />
+      <Skills />
       <Work />
       <Contact />
     </>

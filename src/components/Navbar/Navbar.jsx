@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { TbMail } from 'react-icons/tb';
 import { ImBoxAdd } from 'react-icons/im';
 import { useState } from 'react';
-import Logo from '../../assets/logo.png';
+// import Logo from '../../assets/logo.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -24,13 +24,13 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
 
-        {/* <li>
-          <Link to="/about">About</Link>
-        </li> */}
-        {/* 
         <li>
-          <Link to="/about">Skills</Link>
-        </li> */}
+          <Link to="/about">About</Link>
+        </li>
+
+        <li>
+          <Link to="/skills ">Skills</Link>
+        </li>
 
         <li>
           <Link to="/work">Work</Link>
@@ -82,7 +82,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] durection-600 bg-blue-500 ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/tasha-natasha-0ba490245/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -91,7 +91,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] durection-600 bg-[#000000]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/Tasha1003Natasha?tab=repositories"
             >
               Github <FaGithub size={30} />
             </a>
@@ -100,7 +100,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] durection-600 bg-[#B80000] ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="/contact"
             >
               Email <TbMail size={30} />
             </a>
