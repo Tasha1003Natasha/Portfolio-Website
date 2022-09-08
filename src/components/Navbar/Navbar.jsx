@@ -6,6 +6,7 @@ import { TbMail } from 'react-icons/tb';
 import { ImBoxAdd } from 'react-icons/im';
 import { useState } from 'react';
 // import Logo from '../../assets/logo.png';
+import MyPDF from '../../assets/Reisa_Nataliia.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -109,7 +110,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] durection-600 bg-[#336633] ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              // href="/"
+              href={MyPDF}
+              download="Reisa_Nataliia.pdf"
             >
               Resume <ImBoxAdd size={30} />
             </a>
