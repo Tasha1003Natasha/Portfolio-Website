@@ -24,11 +24,8 @@ const Home = () => {
                 I'm a Front-end Developer.
               </h2>
               <p className="text-sm md:text-base text-gray-50 mb-4">
-                Coming to my skills I know CSS, HTML, JS. Also, I have mastered
-                React and Node.js. I have been coding for 6 months and during
-                this time I have done 3 successful team projects and 2
-                individual ones. Due to this I am good at core technical skills,
-                organizational ethics and discipline.
+                I am passionate about creating websites that improve the lives
+                of those around me.
               </p>
               <div>
                 <button className="text-[#0a192f] bg-[#ccd6f6]  group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-300 hover:border-yellow-300">

@@ -21,8 +21,10 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about creating websites that improve the lives of
-              those around me.
+              I'm an enthusiastic and detail-oriented Front-end Developer
+              seeking an entry-level position with Company to use my skills in
+              coding, troubleshooting complex problems, and assisting in the
+              timely completion of projects.
             </p>
           </div>
         </div>
