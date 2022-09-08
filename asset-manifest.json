@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.95a49fa3.css",
-    "main.js": "/Portfolio-Website/static/js/main.37a2cde6.js",
+    "main.js": "/Portfolio-Website/static/js/main.a8775acd.js",
     "static/media/filmoteka.png": "/Portfolio-Website/static/media/filmoteka.84059e1a5a8162d89cb8.png",
     "static/media/studio.png": "/Portfolio-Website/static/media/studio.a5ccbc52ec8b7af3a69d.png",
     "static/media/english.png": "/Portfolio-Website/static/media/english.7207de9e1a5c1d6fdac8.png",
     "static/media/me3.png": "/Portfolio-Website/static/media/me3.d030a050caa7b8477151.png",
+    "static/media/Reisa_Nataliia.pdf": "/Portfolio-Website/static/media/Reisa_Nataliia.63733fdc0becb4f9f012.pdf",
     "static/media/kapusta.png": "/Portfolio-Website/static/media/kapusta.080bcd3a988c2be78ad0.png",
     "static/media/react.png": "/Portfolio-Website/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/Portfolio-Website/static/media/node.952a9ea986dcfa5229ad.png",
@@ -17,10 +18,10 @@
     "static/media/javascript.png": "/Portfolio-Website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-Website/index.html",
     "main.95a49fa3.css.map": "/Portfolio-Website/static/css/main.95a49fa3.css.map",
-    "main.37a2cde6.js.map": "/Portfolio-Website/static/js/main.37a2cde6.js.map"
+    "main.a8775acd.js.map": "/Portfolio-Website/static/js/main.a8775acd.js.map"
   },
   "entrypoints": [
     "static/css/main.95a49fa3.css",
-    "static/js/main.37a2cde6.js"
+    "static/js/main.a8775acd.js"
   ]
 }
