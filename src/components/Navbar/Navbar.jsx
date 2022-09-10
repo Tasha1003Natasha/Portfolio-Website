@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="w-full h-[80px] flex justify-between items-center px-4 text-xl font-semibold bg-[#adbbc5]  text-[#fffd88] dark:bg-[#0d1c2c] dark:text-yellow-300">
+    <div className="w-full h-[80px] text-xl font-semibold  flex justify-between items-center px-4 bg-[#adbbc5]  text-[#fffd88] dark:bg-[#0d1c2c] dark:text-yellow-300">
       <div>
         <h1>
           <a
@@ -31,23 +31,23 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>
+        <li className="dark:hover:text-[#ccd6f6] hover:text-[#000080]">
           <Link to="/">Home</Link>
         </li>
 
-        <li>
+        <li className="dark:hover:text-[#ccd6f6] hover:text-[#000080]">
           <Link to="/about">About</Link>
         </li>
 
-        <li>
+        <li className="dark:hover:text-[#ccd6f6] hover:text-[#000080]">
           <Link to="/skills ">Skills</Link>
         </li>
 
-        <li>
+        <li className="dark:hover:text-[#ccd6f6] hover:text-[#000080]">
           <Link to="/work">Work</Link>
         </li>
 
-        <li>
+        <li className="dark:hover:text-[#ccd6f6] hover:text-[#000080]">
           <Link to="/contact">Contact</Link>
         </li>
       </ul>

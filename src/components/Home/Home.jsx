@@ -20,7 +20,7 @@ const Home = () => {
               <h1 className="text-3xl md:text-5xl p-2 text-[#fffd88] dark:text-yellow-300 tracking-loose">
                 Tasha Natasha
               </h1>
-              <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
+              <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2  text-[#000080]  dark:text-[#ccd6f6]">
                 I'm a Frontend Developer.
               </h2>
               <p className="text-base md:text-base text-gray-50 mb-4">
