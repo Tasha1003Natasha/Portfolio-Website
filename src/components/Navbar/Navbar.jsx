@@ -8,16 +8,26 @@ import { useState } from 'react';
 // import Logo from '../../assets/logo.png';
 import MyPDF from '../../assets/Reisa_Nataliia.pdf';
 
+import Toggle from '../Toggle/ThemeToggle';
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-xl text-yellow-300">
+    <div className="w-full h-[80px] flex justify-between items-center px-4 text-xl font-semibold bg-[#adbbc5]  text-[#fffd88] dark:bg-[#0d1c2c] dark:text-yellow-300">
       <div>
-        <h1 className="text-2xl md:text-5xl p-2 text-yellow-300">TN</h1>
+        <h1>
+          <a
+            className="text-3xl p-5 text-[#fffd88] dark:text-yellow-300"
+            href="/"
+          >
+            TN
+          </a>
+        </h1>
         {/* <img src={Logo} alt="logo" style={{ width: '200px' }} /> */}
       </div>
+      <Toggle />
 
       {/* menu */}
       <ul className="hidden md:flex">
@@ -110,7 +120,6 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] durection-600 bg-[#336633] ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              // href="/"
               href={MyPDF}
               download="Reisa_Nataliia.pdf"
             >
