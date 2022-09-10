@@ -19,14 +19,14 @@ code {
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 /* @import url('https://fonts.googleapis.com/css?family=Roboto-Regular:300,400,600,700&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Lobster:300,400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap'); */
 
 @layer base {
   body {
-    @apply font-[Raleway];
+    @apply font-[Open+Sans];
   }
   li {
     @apply px-4;

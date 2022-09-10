@@ -1,19 +1,20 @@
-import Work from 'components/Work/Work';
-import Contact from 'components/Contact/Contact';
-import Skills from 'components/Skills/Skills';
-import About from 'components/About/About';
+// import Work from 'components/Work/Work';
+// import Contact from 'components/Contact/Contact';
+// import Skills from 'components/Skills/Skills';
+// import About from 'components/About/About';
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import Me from '../../assets/me3.png';
+import Me from '../../assets/me10.png';
 
 /////////////////////////////////////////////////////////////////
 
 const Home = () => {
   return (
     <>
-      <div className="w-full h-full py-12  bg-gradient-to-l from-slate-900 to-amber-300  hover:bg-gradient-to-r">
-        <div className="max-w-[1000px] mx-auto bg-[#0a192f] text-[#8892b0]">
-          {/* <div className="flex flex-col md:flex-row items-center md:my-24"> */}
+      <div className="w-full h-full py-20 bg-gradient-to-l from-white to-slate-900 hover:bg-gradient-to-r">
+        <div className="lg:max-w-[1000px] mx-auto bg-[#000033] text-[#8892b0] rounded-2xl">
+          {/* <div className="w-full h-full py-20 bg-gradient-to-l from-slate-900 to-amber-300  hover:bg-gradient-to-r"> */}
+          {/* <div className="lg:max-w-[1000px] mx-auto bg-[#0a192f] text-[#8892b0]"> */}
           <div className="flex flex-col md:flex-row items-center">
             <div className=" flex flex-col lg:w-1/2 justify-center items-start p-8">
               <p className=" text-gray-50 font-bold">Hi, my nickname is</p>
@@ -37,8 +38,10 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-1/2  justify-center">
-              <div className="h-full flex flex-wrap content-center">
+            {/* <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-1/2  justify-center"> */}
+            <div className="mb-0 mt-0 ml-20 w-1/2  justify-center">
+              {/* <div className="h-full flex flex-wrap content-center"> */}
+              <div className="h-full flex flex-wrap justify-end">
                 <div>
                   <img
                     className="inline-block mt-24 md:mt-0 p-8 md:p-0"
@@ -52,10 +55,10 @@ const Home = () => {
         </div>
       </div>
 
-      <About />
+      {/* <About />
       <Skills />
       <Work />
-      <Contact />
+      <Contact /> */}
     </>
   );
 };
