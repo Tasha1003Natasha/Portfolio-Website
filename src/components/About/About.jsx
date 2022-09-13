@@ -2,13 +2,11 @@ import React from 'react';
 
 const About = () => {
   return (
-    // dark:bg-[#0d1c2c] dark:text-[#8892b0]
-
     <div
       name="about"
       className="w-full h-screen bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-gray-300"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full ml-2 md:ml-4">
+      <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="lg:max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="text-center sm:text-right pb-8 md:pl-4">
             <p className="text-base md:text-4xl font-bold inline border-b-4 border-[#fffd88]  dark:border-yellow-300">

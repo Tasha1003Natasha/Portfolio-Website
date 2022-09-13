@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { VscMenu, VscChromeClose } from 'react-icons/vsc';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { TbMail } from 'react-icons/tb';
-import { ImBoxAdd } from 'react-icons/im';
+// import { FaLinkedin, FaGithub } from 'react-icons/fa';
+// import { TbMail } from 'react-icons/tb';
+// import { ImBoxAdd } from 'react-icons/im';
+// import MyPDF from '../../assets/Reisa_Nataliia.pdf';
 import { useState } from 'react';
 // import Logo from '../../assets/logo.png';
-import MyPDF from '../../assets/Reisa_Nataliia.pdf';
-
 import Toggle from '../Toggle/ThemeToggle';
 
 const Navbar = () => {
@@ -93,9 +92,9 @@ const Navbar = () => {
 
       {/* Socials icons */}
 
-      <div className="flex fixed flex-col top-[35%] left-0">
+      {/* <div className="flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="text-xs md:text-xl w-[120px] h-[40px] ml-[-65px] md:w-[160px]  hover:ml-[-10px] md:h-[60px] md:ml-[-100px] md:hover:ml-[-10px] flex justify-between items-center durection-600 bg-blue-500 hover:bg-[#fffd88] dark:hover:bg-yellow-300">
+          <li className="text-xs md:text-xl w-[120px] h-[40px] ml-[-65px] md:w-[160px] md:h-[60px] md:ml-[-100px] md:hover:ml-[-10px] flex justify-between items-center durection-600 bg-blue-500 hover:bg-[#fffd88] dark:hover:bg-yellow-300">
             <a
               className="flex justify-between items-center w-full text-gray-400 dark:text-white"
               href="https://www.linkedin.com/in/tasha-natasha-0ba490245/"
@@ -133,7 +132,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

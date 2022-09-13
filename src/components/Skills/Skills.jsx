@@ -18,8 +18,8 @@ const Skills = () => {
       className="w-full h-screen bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-gray-300"
     >
       {/* Container */}
-      <div className="lg:max-w-[1000px] mx-auto px-14 pb-2 sm:px-4 sm:pb-4 flex flex-col justify-center w-full h-full">
-        <div className="sm:pl-14">
+      <div className="lg:max-w-[1000px] mx-auto px-10 pb-2 sm:px-4 sm:pb-4 flex flex-col justify-center w-full h-full">
+        <div className="px-2 sm:px-10">
           <p className="text-base sm:text-2xl md:text-4xl font-bold inline border-b-4 border-[#fffd88]  dark:border-yellow-300 ">
             Skills
           </p>
@@ -28,7 +28,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center lg:py-8 py-2 px-2 sm:px-14 lg:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center lg:py-8 py-2 px-2 sm:px-10 lg:px-0">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-8 sm:w-20  mx-auto" src={HTML} alt="HTML icon" />
             <p className="my-2 md:my-4">HTML</p>

@@ -35,19 +35,22 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4 bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-[#0d1c2c]"
+      className="w-full h-screen md:px-4 px-8 flex justify-center items-center  bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-[#0d1c2c]"
     >
-      <form onSubmit={onSubmit} className="flex flex-col max-w-[600px] w-full">
-        <div className="pt-2">
-          <p className="text-4xl font-bold inline border-b-4 text-[#000080] dark:text-gray-300 border-[#fffd88]  dark:border-yellow-300">
+      <form
+        onSubmit={onSubmit}
+        className="flex flex-col sm:max-w-[600px] w-full"
+      >
+        <div className="mt-10 lg:mt-15">
+          <p className="text-base sm:text-2xl md:text-3xl font-bold inline border-b-4 text-[#000080] dark:text-gray-300 border-[#fffd88]  dark:border-yellow-300">
             Contact
           </p>
-          <p className="text-white dark:text-gray-300 py-4 cursor-pointer">
-            Submit the form below or shoot me an email - 0955712824n@gmail.com
+          <p className="text-sm sm:text-base lg:text-lg text-white dark:text-gray-300 lg:py-4 py-2 cursor-pointer">
+            Submit the form below or shoot me an email: 0955712824n@gmail.com
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] my-4 p-2 outline-none"
+          className="bg-[#ccd6f6] lg:my-4 p-2 my-2 outline-none"
           type="text"
           placeholder="Name"
           name="user_name"
@@ -55,7 +58,7 @@ const Contact = () => {
           onChange={handleChange}
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6] outline-none"
+          className="lg:my-4 p-2 my-2 bg-[#ccd6f6] outline-none"
           type="email"
           placeholder="Email"
           name="user_email"
@@ -73,11 +76,11 @@ const Contact = () => {
         <button
           type="submit"
           value="Send"
-          className="text-[#0a192f] bg-[#ccd6f6] border-2 hover:bg-[#fffd88] hover:border-bg-[#fffd88] dark:hover:bg-yellow-300 dark:hover:border-yellow-300 px-4 py-3 my-8 mx-auto flex items-center"
+          className="text-sm md:text-lg lg:px-4 lg:py-2 lg:my-4 my-2 px-2 text-[#0a192f] bg-[#ccd6f6] border-2 hover:bg-[#fffd88] hover:border-bg-[#fffd88] dark:hover:bg-yellow-300 dark:hover:border-yellow-300  mx-auto flex items-center"
         >
           Let's Collaborate
         </button>
-        <span className="text-gray-300 py-4 cursor-pointer">
+        <span className="text-gray-300  py-4 cursor-pointer">
           {done && 'Thank you for contacting me'}
         </span>
       </form>
