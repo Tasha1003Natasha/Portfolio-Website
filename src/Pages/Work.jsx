@@ -1,8 +1,10 @@
 import React from 'react';
-import Studio from '../../assets/studio.png';
-import English from '../../assets/english.png';
-import Filmoteka from '../../assets/filmoteka.png';
-import Kapusta from '../../assets/kapusta.png';
+import Studio from '../assets/studio.png';
+import English from '../assets/english.png';
+import Filmoteka from '../assets/filmoteka.png';
+import Kapusta from '../assets/kapusta.png';
+
+// import Kapusta from '../../assets/kapusta.png';
 
 const Work = () => {
   return (

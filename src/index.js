@@ -10,11 +10,11 @@ import Background from './components/Toggle/Background';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <ThemeProvider>
-        <Background>
+      <Background>
+        <ThemeProvider>
           <App />
-        </Background>
-      </ThemeProvider>
+        </ThemeProvider>
+      </Background>
     </BrowserRouter>
   </React.StrictMode>
 );

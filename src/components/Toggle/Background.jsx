@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Background = ({ children }) => {
-  return <body>{children}</body>;
+  return <>{children}</>;
 };
 
 export default Background;
