@@ -41,7 +41,7 @@ const Contact = () => {
         onSubmit={onSubmit}
         className="flex flex-col sm:max-w-[600px] w-full"
       >
-        <div className="mt-10 lg:mt-15">
+        <div>
           <p className="text-base sm:text-2xl md:text-3xl font-bold inline border-b-4 text-[#000080] dark:text-gray-300 border-[#fffd88]  dark:border-yellow-300">
             Contact
           </p>
@@ -50,12 +50,14 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] lg:my-4 p-2 my-2 outline-none"
+          className="bg-[#ccd6f6] p-2 outline-none"
           type="text"
           placeholder="Name"
           name="user_name"
           value={toSend.user_name}
           onChange={handleChange}
+          pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+          required
         />
         <input
           className="lg:my-4 p-2 my-2 bg-[#ccd6f6] outline-none"
@@ -64,6 +66,8 @@ const Contact = () => {
           name="user_email"
           value={toSend.user_email}
           onChange={handleChange}
+          pattern="^\S+@\S+\.\S+$"
+          required
         />
         <textarea
           className="bg-[#ccd6f6] p-2 outline-none"
@@ -80,8 +84,8 @@ const Contact = () => {
         >
           Let's Collaborate
         </button>
-        <span className="text-gray-300  py-4 cursor-pointer">
-          {done && 'Thank you for contacting me'}
+        <span className="text-gray-300 cursor-pointer flex  justify-center items-center ">
+          {done && 'Thank you for contacting me!'}
         </span>
       </form>
     </div>
