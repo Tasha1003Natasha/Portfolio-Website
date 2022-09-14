@@ -14,7 +14,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="w-full h-[60px] md:h-[80px] text-xl font-semibold flex justify-between items-center px-4 bg-[#adbbc5]  text-[#fffd88] dark:bg-[#0d1c2c] dark:text-yellow-300">
+    <div className="w-full h-[60px] md:h-[80px] text-base md:text-xl font-semibold flex justify-between items-center px-4 bg-[#adbbc5]  text-[#fffd88] dark:bg-[#0d1c2c] dark:text-yellow-300">
       <div>
         <h1>
           <a
@@ -29,7 +29,7 @@ const Navbar = () => {
       <Toggle />
 
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden sm:flex">
         <li className="dark:hover:text-[#ccd6f6] hover:text-[#000080]">
           <Link to="/">Home</Link>
         </li>
@@ -54,19 +54,19 @@ const Navbar = () => {
       {/* Hamburger */}
       <div
         onClick={handleClick}
-        className="md:hidden z-10 dark:hover:text-[#ccd6f6] hover:text-[#000080]"
+        className="sm:hidden z-10 dark:hover:text-[#ccd6f6] hover:text-[#000080]"
       >
         {!nav ? <VscMenu /> : <VscChromeClose />}
       </div>
 
-      {/*Mobile menu */}
+      {/* Mobile menu */}
 
       <ul
         onClick={handleClick}
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#adbbc5]  dark:bg-[#0d1c2c] flex flex-col justify-center items-center'
+            : 'sm:hidden absolute top-0 left-0 w-full h-screen  bg-[#adbbc5]  dark:bg-[#0d1c2c] flex flex-col justify-center items-center'
         }
       >
         <li className="py-6 text-4xl dark:hover:text-[#ccd6f6] hover:text-[#000080]">
@@ -89,50 +89,6 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-
-      {/* Socials icons */}
-
-      {/* <div className="flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="text-xs md:text-xl w-[120px] h-[40px] ml-[-65px] md:w-[160px] md:h-[60px] md:ml-[-100px] md:hover:ml-[-10px] flex justify-between items-center durection-600 bg-blue-500 hover:bg-[#fffd88] dark:hover:bg-yellow-300">
-            <a
-              className="flex justify-between items-center w-full text-gray-400 dark:text-white"
-              href="https://www.linkedin.com/in/tasha-natasha-0ba490245/"
-            >
-              Linkedin
-              <FaLinkedin size={30} />
-            </a>
-          </li>
-
-          <li className="text-xs md:text-xl w-[120px] h-[40px] ml-[-65px] md:w-[160px] md:h-[60px]  md:ml-[-100px] md:hover:ml-[-10px]  flex justify-between durection-600 items-center bg-[#000000] hover:bg-[#fffd88] dark:hover:bg-yellow-300">
-            <a
-              className="flex justify-between items-center w-full  text-gray-400 dark:text-white"
-              href="https://github.com/Tasha1003Natasha?tab=repositories"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-
-          <li className="text-xs md:text-xl w-[120px] h-[40px] ml-[-65px] md:w-[160px] md:h-[60px]  md:ml-[-100px] md:hover:ml-[-10px] flex justify-between durection-600 items-center bg-[#B80000] hover:bg-[#fffd88] dark:hover:bg-yellow-300">
-            <a
-              className="flex justify-between items-center w-full  text-gray-400 dark:text-white"
-              href="/contact"
-            >
-              Email <TbMail size={30} />
-            </a>
-          </li>
-
-          <li className="text-xs md:text-xl w-[120px] h-[40px] ml-[-65px] md:w-[160px] md:h-[60px]  md:ml-[-100px] md:hover:ml-[-10px]  flex justify-between items-center durection-600 bg-[#336633] hover:bg-[#fffd88] dark:hover:bg-yellow-300">
-            <a
-              className="flex justify-between items-center w-full text-gray-400 dark:text-white"
-              href={MyPDF}
-              download="Reisa_Nataliia.pdf"
-            >
-              Resume <ImBoxAdd size={30} />
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 };
