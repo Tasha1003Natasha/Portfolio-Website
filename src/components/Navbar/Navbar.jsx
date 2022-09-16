@@ -1,12 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { VscMenu, VscChromeClose } from 'react-icons/vsc';
-// import { FaLinkedin, FaGithub } from 'react-icons/fa';
-// import { TbMail } from 'react-icons/tb';
-// import { ImBoxAdd } from 'react-icons/im';
-// import MyPDF from '../../assets/Reisa_Nataliia.pdf';
 import { useState } from 'react';
-// import Logo from '../../assets/logo.png';
 import Toggle from '../Toggle/ThemeToggle';
 
 const Navbar = () => {
@@ -24,7 +19,6 @@ const Navbar = () => {
             TN
           </a>
         </h1>
-        {/* <img src={Logo} alt="logo" style={{ width: '200px' }} /> */}
       </div>
       <Toggle />
 

@@ -1,11 +1,5 @@
 import React from 'react';
 import Layout from './Layout/Layout';
-// import Home from '../Pages/Home';
-// import Contact from '../Pages/Contact';
-// import Work from '../Pages/Work';
-// import Skills from '../Pages/Skills';
-// import About from '../Pages/About';
-// import NotFound from 'Pages/NotFound';
 import { Routes, Route } from 'react-router';
 
 import { lazy, Suspense } from 'react';

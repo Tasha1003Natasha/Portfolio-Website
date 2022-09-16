@@ -4,15 +4,12 @@ import English from '../assets/english.png';
 import Filmoteka from '../assets/filmoteka.png';
 import Kapusta from '../assets/kapusta.png';
 
-// import Kapusta from '../../assets/kapusta.png';
-
 const Work = () => {
   return (
     <div
       name="work"
       className="w-full h-screen bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-gray-300"
     >
-      {/* <div className="lg:max-w-[800px] mx-auto p-6 flex flex-col justify-center w-full h-screen"> */}
       <div className="lg:max-w-[800px] mx-auto px-6 pb-2 md:px-4 md:pb-4 flex flex-col md:justify-center w-full h-screen">
         <div className="mt-5 md:mx-10 lg:mx:0">
           <p className="text-base sm:text-2xl md:text-4xl font-bold inline border-b-4 text-[#000080] dark:text-gray-300 border-[#fffd88]  dark:border-yellow-300">

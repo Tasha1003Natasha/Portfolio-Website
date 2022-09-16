@@ -1,13 +1,7 @@
-// import Work from 'components/Work/Work';
-// import Contact from 'components/Contact/Contact';
-// import Skills from 'components/Skills/Skills';
-// import About from 'components/About/About';
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import Me from '../assets/me.png';
 import SocialsIcons from 'components/Navbar/SocialsIcons';
-
-/////////////////////////////////////////////////////////////////
 
 const Home = () => {
   return (
@@ -52,10 +46,6 @@ const Home = () => {
       </div>
 
       <SocialsIcons />
-      {/* <About />
-      <Skills />
-      <Work />
-      <Contact /> */}
     </>
   );
 };
