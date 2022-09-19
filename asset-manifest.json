@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.086f9fe1.css",
-    "main.js": "/static/js/main.7588b9bd.js",
-    "static/js/20.5828bbe1.chunk.js": "/static/js/20.5828bbe1.chunk.js",
-    "static/js/424.6546dc64.chunk.js": "/static/js/424.6546dc64.chunk.js",
+    "main.css": "/static/css/main.c7e563e1.css",
+    "main.js": "/static/js/main.90b3339e.js",
+    "static/js/20.ba34c983.chunk.js": "/static/js/20.ba34c983.chunk.js",
+    "static/js/424.2ca5c362.chunk.js": "/static/js/424.2ca5c362.chunk.js",
     "static/js/774.0308d66a.chunk.js": "/static/js/774.0308d66a.chunk.js",
     "static/js/288.1d34fec5.chunk.js": "/static/js/288.1d34fec5.chunk.js",
     "static/js/551.1fb312b3.chunk.js": "/static/js/551.1fb312b3.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/studio.png": "/static/media/studio.a5ccbc52ec8b7af3a69d.png",
     "static/media/english.png": "/static/media/english.7207de9e1a5c1d6fdac8.png",
     "static/media/me.png": "/static/media/me.b49d9d5f3f9b76689fbf.png",
-    "static/media/Reisa_Nataliia.pdf": "/static/media/Reisa_Nataliia.63733fdc0becb4f9f012.pdf",
+    "static/media/Reisa_Nataliia.pdf": "/static/media/Reisa_Nataliia.22ec2fe3bfaaf724bc36.pdf",
     "static/media/kapusta.png": "/static/media/kapusta.080bcd3a988c2be78ad0.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -24,10 +24,10 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.086f9fe1.css.map": "/static/css/main.086f9fe1.css.map",
-    "main.7588b9bd.js.map": "/static/js/main.7588b9bd.js.map",
-    "20.5828bbe1.chunk.js.map": "/static/js/20.5828bbe1.chunk.js.map",
-    "424.6546dc64.chunk.js.map": "/static/js/424.6546dc64.chunk.js.map",
+    "main.c7e563e1.css.map": "/static/css/main.c7e563e1.css.map",
+    "main.90b3339e.js.map": "/static/js/main.90b3339e.js.map",
+    "20.ba34c983.chunk.js.map": "/static/js/20.ba34c983.chunk.js.map",
+    "424.2ca5c362.chunk.js.map": "/static/js/424.2ca5c362.chunk.js.map",
     "774.0308d66a.chunk.js.map": "/static/js/774.0308d66a.chunk.js.map",
     "288.1d34fec5.chunk.js.map": "/static/js/288.1d34fec5.chunk.js.map",
     "551.1fb312b3.chunk.js.map": "/static/js/551.1fb312b3.chunk.js.map",
@@ -35,7 +35,7 @@
     "287.c46d5def.chunk.js.map": "/static/js/287.c46d5def.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.086f9fe1.css",
-    "static/js/main.7588b9bd.js"
+    "static/css/main.c7e563e1.css",
+    "static/js/main.90b3339e.js"
   ]
 }
