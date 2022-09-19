@@ -35,11 +35,11 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="min-w-[500px] w-full h-screen md:px-4 px-8 flex justify-center items-center  bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-[#0d1c2c]"
+      className="w-full h-screen md:px-4 px-8 flex justify-center items-center  bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-[#0d1c2c]"
     >
       <form
         onSubmit={onSubmit}
-        className="min-w-[500px] flex flex-col sm:max-w-[600px] md:w-full"
+        className="text-base flex flex-col sm:max-w-[600px] w-full"
       >
         <div>
           <p className="text-base sm:text-2xl md:text-3xl font-bold inline border-b-4 text-[#000080] dark:text-gray-300 border-[#fffd88]  dark:border-yellow-300">
@@ -72,7 +72,7 @@ const Contact = () => {
         <textarea
           className="bg-[#ccd6f6] p-2 outline-none"
           name="message"
-          rows="10"
+          rows="6"
           placeholder="Message"
           value={toSend.message}
           onChange={handleChange}
