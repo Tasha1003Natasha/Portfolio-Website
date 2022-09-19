@@ -6,7 +6,7 @@ import SocialsIcons from 'components/Navbar/SocialsIcons';
 const Home = () => {
   return (
     <>
-      <div className="w-full min-h-[498] h-screen px-12 py-4 sm:py-20 md:px-20  bg-gradient-to-l from-white to-[#adbbc5] hover:bg-gradient-to-r  dark:from-white dark:to-[#0d1c2c]">
+      <div className="w-full h-screen px-12 py-4 sm:py-20 md:px-20  bg-gradient-to-l from-white to-[#adbbc5] hover:bg-gradient-to-r  dark:from-white dark:to-[#0d1c2c]">
         <div className="lg:max-w-[1200px]  mx-auto bg-[#adbbc5] text-[#000080]  dark:bg-[#0d1c2c] dark:text-[#8892b0]">
           <div className="pt-2 lg:pt-0 flex flex-col md:flex-row md:items-center items-center">
             <div className="flex flex-col justify-center items-center">
@@ -36,7 +36,7 @@ const Home = () => {
 
             <div className="flex flex-wrap justify-center md:justify-end">
               <img
-                className="w-full h-48 md:h-full inline-block mt-0 p-0"
+                className="w-full h-40 md:h-full inline-block mt-0 p-0"
                 src={Me}
                 alt="/"
               />
