@@ -39,7 +39,7 @@ const Contact = () => {
     >
       <form
         onSubmit={onSubmit}
-        className="flex flex-col sm:max-w-[600px] w-full"
+        className="box-border flex flex-col sm:max-w-[600px] w-full"
       >
         <div>
           <p className="text-base sm:text-2xl md:text-3xl font-bold inline border-b-4 text-[#000080] dark:text-gray-300 border-[#fffd88]  dark:border-yellow-300">
