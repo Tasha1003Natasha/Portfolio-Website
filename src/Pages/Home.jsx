@@ -36,7 +36,7 @@ const Home = () => {
 
             <div className="flex flex-wrap justify-center md:justify-end">
               <img
-                className="w-full h-40 md:h-full inline-block mt-0 p-0"
+                className="h-40 md:h-full inline-block mt-0 p-0"
                 src={Me}
                 alt="/"
               />
