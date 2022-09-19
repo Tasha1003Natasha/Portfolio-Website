@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { TbMail } from 'react-icons/tb';
 import { ImBoxAdd } from 'react-icons/im';
-import MyPDF from '../../assets/reisa_nataliia.pdf';
+import MyPDF from '../../assets/Reisa_Nataliia.pdf';
 
 const SocialsIcons = () => {
   return (
