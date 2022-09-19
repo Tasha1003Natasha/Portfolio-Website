@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen md:px-4 px-8 flex justify-center items-center  bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-[#0d1c2c]"
+      className="w-screen h-screen md:px-4 px-8 flex justify-center items-center  bg-[#adbbc5] text-[#000080] dark:bg-[#0d1c2c] dark:text-[#0d1c2c]"
     >
       <form
         onSubmit={onSubmit}
