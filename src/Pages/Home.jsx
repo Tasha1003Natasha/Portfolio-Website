@@ -18,7 +18,7 @@ const Home = () => {
                 Tasha Natasha
               </h1>
               <h2 className="text-lg sm:text-xl lg:text-4xl leading-relaxed md:leading-snug mb-2 text-[#000080]  dark:text-[#ccd6f6]">
-                I'm a Frontend Developer.
+                I'm a Full Stack Developer.
               </h2>
               <p className="mx-4 lg:mb-4  text-center text-sm sm:text-base md:text-base lg:text-2xl text-gray-50 mb:mb-4">
                 I am passionate about creating websites that improve the lives

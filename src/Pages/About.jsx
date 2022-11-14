@@ -23,10 +23,10 @@ const About = () => {
           </div>
           <div className="text-center sm:text-left text-[15px] md:text-[18px]">
             <p>
-              I'm an enthusiastic and detail-oriented Frontend Developer seeking
-              an entry-level position with Company to use my skills in coding,
-              troubleshooting complex problems, and assisting in the timely
-              completion of projects.
+              I'm an enthusiastic and detail-oriented Full Stack Developer
+              seeking an entry-level position with Company to use my skills in
+              coding, troubleshooting complex problems, and assisting in the
+              timely completion of projects.
             </p>
           </div>
         </div>
