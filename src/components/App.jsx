@@ -3,6 +3,7 @@ import Layout from './Layout/Layout';
 import { Routes, Route } from 'react-router';
 
 import { lazy, Suspense } from 'react';
+
 const HomeLazy = lazy(() => import('../Pages/Home'));
 const ContactLazy = lazy(() => import('../Pages/Contact'));
 const WorkLazy = lazy(() => import('../Pages/Work'));

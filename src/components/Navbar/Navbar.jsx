@@ -11,16 +11,16 @@ const Navbar = () => {
   return (
     <div className="w-full h-[60px] md:h-[80px] text-base md:text-xl font-semibold flex justify-between items-center px-4 bg-[#adbbc5]  text-[#fffd88] dark:bg-[#0d1c2c] dark:text-yellow-300">
       <div>
-        <h1>
+        {/* <h1>
           <a
             className="lg:text-3xl  p-5 text-[#fffd88] dark:text-yellow-300 "
             href="/"
           >
             TN
           </a>
-        </h1>
+        </h1> */}
+        <Toggle />
       </div>
-      <Toggle />
 
       {/* menu */}
       <ul className="hidden sm:flex">

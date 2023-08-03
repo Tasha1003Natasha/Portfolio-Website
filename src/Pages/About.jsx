@@ -1,4 +1,6 @@
 import React from 'react';
+import { ImBoxAdd } from 'react-icons/im';
+import MyPDF from '../assets/Reisa_Nataliia.pdf';
 
 const About = () => {
   return (
@@ -14,8 +16,9 @@ const About = () => {
             </p>
           </div>
         </div>
+
         <div className="md:max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 lg:px-4 px-14">
-          <div className="text-base text-center sm:text-right md:text-4xl font-bold">
+          <div className="text-base text-center sm:text-right md:text-4xl font-bold ">
             <p>
               Hi. I'm Tasha Natasha, nice to meet you. Please take a look
               around.
@@ -28,6 +31,15 @@ const About = () => {
               coding, troubleshooting complex problems, and assisting in the
               timely completion of projects.
             </p>
+            <div className="text-xs p-2 mt-10  md:text-xl w-[120px] h-[40px]  md:w-[160px] md:h-[60px]  md:ml-[-100px]   flex justify-between items-center durection-600 bg-[#000080] dark:bg-gray-400 hover:bg-[#fffd88] dark:hover:bg-yellow-300">
+              <a
+                className="flex justify-between items-center w-full text-gray-400 dark:text-white"
+                href={MyPDF}
+                download="Reisa_Nataliia.pdf"
+              >
+                Resume <ImBoxAdd size={30} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
