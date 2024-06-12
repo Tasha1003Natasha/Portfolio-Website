@@ -11,24 +11,18 @@ const Contact = () => {
   const [done, setDone] = useState(false);
 
   const onSubmit = e => {
-    // console.log(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
-    console.log(process.env);
+    // console.log(process.env);
     e.preventDefault();
     emailjs
-      .send(
-        process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
-        'service_d6bwsu8',
-        'template_3vs9u82',
-        toSend,
-        process.env.NEXT_PUBLIC_PUBLIC_KEY
-      )
       // .send(
+      //   process.env.REACT_APP_SERVICE_ID,
+      //   process.env.REACT_APP_TEMPLATE_ID,
       //   'service_d6bwsu8',
       //   'template_3vs9u82',
       //   toSend,
-      //   'YfNaQehsp_RK-5VvS'
+      //   process.env.REACT_APP_PUBLIC_KEY
       // )
+      .send('service_d6bwsu8', 'template_3vs9u82', toSend, 'YfNaQehsp_RK-5VvS')
       .then(response => {
         console.log('SUCCESS!', response.status, response.text);
         setDone(true);
