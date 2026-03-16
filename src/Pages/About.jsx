@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImBoxAdd } from 'react-icons/im';
-import MyPDF from '../assets/Reisa_Nataliia.pdf';
+import MyPDF from '../assets/Boiko_Nataliia_full.pdf';
 
 const About = () => {
   return (
@@ -36,7 +36,7 @@ const About = () => {
                 <a
                   className="flex justify-between items-center w-full text-gray-400 dark:text-white"
                   href={MyPDF}
-                  download="Reisa_Nataliia.pdf"
+                  download="Boiko_Nataliia_full.pdf"
                 >
                   Resume <ImBoxAdd size={30} />
                 </a>

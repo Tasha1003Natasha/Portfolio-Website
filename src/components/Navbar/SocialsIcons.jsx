@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { TbMail } from 'react-icons/tb';
 import { ImBoxAdd } from 'react-icons/im';
-import MyPDF from '../../assets/Reisa_Nataliia.pdf';
+import MyPDF from '../../assets/Boiko_Nataliia_full.pdf';
 
 const SocialsIcons = () => {
   return (
@@ -40,7 +40,7 @@ const SocialsIcons = () => {
           <a
             className="flex justify-between items-center w-full text-gray-400 dark:text-white"
             href={MyPDF}
-            download="Reisa_Nataliia.pdf"
+            download="Boiko_Nataliia_full.pdf"
           >
             Resume <ImBoxAdd size={30} />
           </a>
